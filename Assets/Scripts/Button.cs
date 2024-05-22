@@ -2,27 +2,31 @@ using UnityEngine;
 
 public class Button : MonoBehaviour
 {
-    [SerializeField] private Color pressButtonColor, defaultButtonColor;
     [SerializeField] private Renderer buttonRenderer;
-    
-    void Start()
+    [SerializeField] private Color defaultColor, pressedColor;
+
+    private void Update()
     {
-        buttonRenderer.material.color = defaultButtonColor;
+        ChangeButton();
     }
 
-    private void OnTriggerEnter(Collider other)
+    private void ChangeButton()
     {
-        if (other.CompareTag("Player"))
+        Ray ray = new Ray(gameObject.transform.position, transform.up);
+        RaycastHit hit;
+
+        if (Physics.Raycast(ray, out hit, 20))
         {
-            buttonRenderer.material.color = pressButtonColor;
+            buttonRenderer.material.color = pressedColor;
+        }
+        else
+        {
+            buttonRenderer.material.color = defaultColor;
         }
     }
 
-    private void OnTriggerExit(Collider other)
+    private void OnDrawGizmos()
     {
-        if (other.CompareTag("Player"))
-        {
-            buttonRenderer.material.color = defaultButtonColor;
-        }
+        Gizmos.DrawRay(transform.position, transform.up);
     }
 }
