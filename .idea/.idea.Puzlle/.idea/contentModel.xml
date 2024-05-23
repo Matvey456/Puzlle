@@ -12,9 +12,16 @@
           <e p="CameraController.cs" t="Include" />
           <e p="InteractableView.cs" t="Include" />
           <e p="Item.cs" t="Include" />
+          <e p="Menu" t="Include">
+            <e p="Menu.cs" t="Include" />
+            <e p="PauseMenu.cs" t="Include" />
+            <e p="SettingsMenu.cs" t="Include" />
+          </e>
+          <e p="Pause.cs" t="Include" />
           <e p="PlayerController.cs" t="Include" />
           <e p="Radio.cs" t="Include" />
         </e>
+        <e p="Speaker.cs" t="Include" />
         <e p="TextMesh Pro" t="Include">
           <e p="Fonts" t="Include">
             <e p="LiberationSans - OFL.txt" t="Include" />

@@ -22,9 +22,21 @@
     <list default="true" id="6ec8956c-8571-405e-9378-5f11643f52e5" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Puzlle/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Puzlle/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Puzlle/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Puzlle/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Radio.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Radio.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Button.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Button.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Player.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Player.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/Item.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Item.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Textures/Table_AO.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Textures/Table_AO.jpg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Textures/Table_albedo.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Textures/Table_albedo.jpg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Textures/Table_metallic.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Textures/Table_metallic.jpg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Textures/Table_normal.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Textures/Table_normal.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Textures/Table_roughness.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Textures/Table_roughness.jpg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,6 +48,7 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Button.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Pause.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -44,10 +57,18 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/InteractUI.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/IInteractableView.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Radio.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Item.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/PressButton.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Button.cs" />
         <option value="$PROJECT_DIR$/Assets/Door.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Item.cs" />
+        <option value="$PROJECT_DIR$/Assets/Speaker.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/SetingsMenu.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Menu.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/SettingsMenu.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/GameMenu.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/PauseMenu.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Menu/PauseMenu.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Pause.cs" />
       </list>
     </option>
   </component>
@@ -117,6 +138,13 @@
       <workItem from="1716372251498" duration="5104000" />
       <workItem from="1716383076511" duration="893000" />
       <workItem from="1716385615596" duration="3875000" />
+      <workItem from="1716456080819" duration="433000" />
+      <workItem from="1716458213406" duration="808000" />
+      <workItem from="1716462188837" duration="635000" />
+      <workItem from="1716470129873" duration="1301000" />
+      <workItem from="1716471461917" duration="731000" />
+      <workItem from="1716474753814" duration="1399000" />
+      <workItem from="1716476651922" duration="3815000" />
     </task>
     <servers />
   </component>
@@ -205,13 +233,13 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="912" height="386" key="GridCell.Tab.3.right/0.0.1920.1040@0.0.1920.1040" timestamp="1716377398416" />
-    <state x="616" y="240" key="run.anything.popup" timestamp="1716356797439">
+    <state x="616" y="240" key="run.anything.popup" timestamp="1716475771239">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="616" y="240" key="run.anything.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1716356797439" />
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1716141658923">
+    <state x="616" y="240" key="run.anything.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1716475771239" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1716470548864">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1716141658923" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1716470548864" />
   </component>
 </project>
