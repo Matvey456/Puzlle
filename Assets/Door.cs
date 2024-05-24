@@ -15,6 +15,16 @@ public class Door : MonoBehaviour
     {
         if (other.transform.CompareTag("Player"))
         {
+            isOpen = true;
+           OpenCloseDoor();
+        }
+    }
+    
+    private void OnTriggerExit(Collider other)
+    {
+        if (other.transform.CompareTag("Player"))
+        {
+            isOpen = false;
            OpenCloseDoor();
         }
     }

@@ -20,23 +20,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6ec8956c-8571-405e-9378-5f11643f52e5" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Puzlle/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Puzlle/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Puzlle/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Puzlle/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Player.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Player.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Item.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Item.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Textures/Table_AO.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Textures/Table_AO.jpg.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Textures/Table_albedo.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Textures/Table_albedo.jpg.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Textures/Table_metallic.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Textures/Table_metallic.jpg.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Textures/Table_normal.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Textures/Table_normal.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Textures/Table_roughness.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Textures/Table_roughness.jpg.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Door.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Door.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Button.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Button.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,8 +44,6 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/IInteractableView.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Radio.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/PressButton.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Button.cs" />
-        <option value="$PROJECT_DIR$/Assets/Door.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Item.cs" />
         <option value="$PROJECT_DIR$/Assets/Speaker.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/SetingsMenu.cs" />
@@ -69,6 +53,8 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/PauseMenu.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Menu/PauseMenu.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Pause.cs" />
+        <option value="$PROJECT_DIR$/Assets/Door.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Button.cs" />
       </list>
     </option>
   </component>
@@ -145,6 +131,8 @@
       <workItem from="1716471461917" duration="731000" />
       <workItem from="1716474753814" duration="1399000" />
       <workItem from="1716476651922" duration="3815000" />
+      <workItem from="1716561425846" duration="4832000" />
+      <workItem from="1716568630857" duration="739000" />
     </task>
     <servers />
   </component>
@@ -237,9 +225,9 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="616" y="240" key="run.anything.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1716475771239" />
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1716470548864">
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1716564278944">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1716470548864" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1716564278944" />
   </component>
 </project>
