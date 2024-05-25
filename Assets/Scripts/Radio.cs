@@ -9,6 +9,14 @@ public class Radio : MonoBehaviour
     public void RadioMusic()
     {
         _isOn = !_isOn;
-        music.mute = _isOn;
+        
+        if (_isOn)
+        {
+            music.Play();
+        }
+        else
+        {
+            music.Pause();
+        }
     }
 }

@@ -7,7 +7,7 @@ public class SettingsMenu : MonoBehaviour
     
     private void Start()
     {
-        backButton.onClick.AddListener(BackToMenu);    
+        backButton.onClick.AddListener(BackToMenu);
     }
 
     private void BackToMenu()

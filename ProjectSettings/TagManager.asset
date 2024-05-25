@@ -6,6 +6,7 @@ TagManager:
   tags:
   - Radio
   - Button
+  - Door
   layers:
   - Default
   - TransparentFX

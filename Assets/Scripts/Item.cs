@@ -50,6 +50,14 @@ public class Item : MonoBehaviour
                 if (Input.GetKeyDown(KeyCode.E))
                     hit.transform.GetComponent<Radio>().RadioMusic();
             }
+
+            if (hit.transform.CompareTag("Door"))
+            {
+                interactableTextObject.SetActive(true);
+                interactableMouseObject.SetActive(false);
+
+                hit.transform.GetComponent<DoorController>().Door();
+            }
         }
         else
         {
